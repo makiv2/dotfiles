@@ -6,3 +6,4 @@ Arch Linux configuration files
 - oh-my-zsh
 - zsh
 - kitty
+- picom
