@@ -1,0 +1,9 @@
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro__div {
+    max-width: 65%;
+}
