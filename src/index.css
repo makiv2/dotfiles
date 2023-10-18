@@ -40,12 +40,18 @@
 
 html {
     scroll-behavior: smooth;
+    height: 100%;
 }
 
 body {
     font-family: 'General Sans', sans-serif;
     background-color: var(--clr-dark);
     color: var(--clr-light);
+    height: 100%;
+}
+
+#root {
+    height: 100%;
 }
 
 img,
@@ -56,15 +62,4 @@ svg {
     display: block;
     max-width: 100%;
     user-select: none;
-}
-
-a {
-    text-decoration: none; /* Remove underline (optional) */
-    transition: 1s color;
-}
-
-a:hover {
-    color: var(--clr-cyan);
-    cursor: pointer; /* Change the cursor to a hand pointer on hover */
-    text-decoration: underline;
 }

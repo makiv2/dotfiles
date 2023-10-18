@@ -1,6 +1,10 @@
 const System = () => {
     return (
-        <>system page</>
+        <>
+            <div>
+                <h1>The system page</h1>
+            </div>
+        </>
     )
 }
 

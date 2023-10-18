@@ -3,8 +3,9 @@ import { Outlet, Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <>
+        <div className={"root__div"}>
             <div className={"navbar"}>
+                <Link to={"/"}>Overview</Link>
                 <Link to={"system"}>System Settings</Link>
                 <Link to={"rectangle"} >Rectangle</Link>
                 <Link to={"homebrew"} >Homebrew</Link>
@@ -20,7 +21,7 @@ const Navbar = () => {
                 <Link to={"latex"} >LaTeX</Link>
             </div>
             <Outlet/>
-        </>
+        </div>
     )
 }
 
