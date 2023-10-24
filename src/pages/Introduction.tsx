@@ -6,7 +6,7 @@ const Introduction = () => {
     return (
         <div className={"intro"}>
             <div className={"intro__div"}>
-                <h1>Welcome to the Ultimate Mac Setup and Configuration Guide!</h1>
+                <h1>Welcome to my Ultimate Mac Setup and Configuration Guide!</h1>
                 <p>{introText}</p>
 
                 <h2>Contributing?</h2>
