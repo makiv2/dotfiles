@@ -8,6 +8,12 @@ const Introduction = () => {
             <div className={"intro__div"}>
                 <h1>Welcome to the Ultimate Mac Setup and Configuration Guide!</h1>
                 <p>{introText}</p>
+
+                <h2>Contributing?</h2>
+                <p>
+                    If you've found this page helpful and have additional insights or suggestions to enhance its
+                    content, I warmly welcome your contributions. Sharing knowledge benefits everyone, don't hesitate to open a pull request!
+                </p>
             </div>
         </div>
     )
