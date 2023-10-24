@@ -1,9 +1,14 @@
 .intro {
     display: flex;
-    align-items: center;
     justify-content: center;
+    max-width: 78%;
 }
 
 .intro__div {
-    max-width: 65%;
+    margin-top: 6rem;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 78%;
 }
