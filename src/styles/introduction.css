@@ -1,12 +1,11 @@
 .intro {
     display: flex;
     justify-content: center;
-    max-width: 78%;
 }
 
 .intro__div {
     margin-top: 6rem;
-    
+
     display: flex;
     flex-direction: column;
     gap: 2rem;
