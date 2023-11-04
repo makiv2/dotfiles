@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar.tsx";
 import Error from "./pages/Error.tsx";
 import Introduction from "./pages/Introduction.tsx";
 import System from "./pages/System.tsx";
+import Rectangle from "./pages/Rectangle.tsx";
 
 const router = createBrowserRouter([
     {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
             {
                 path: "system",
                 element: <System/>,
+            },
+            {
+                path: "rectangle",
+                element: <Rectangle/>,
             },
         ],
     },

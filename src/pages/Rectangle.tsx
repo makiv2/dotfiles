@@ -1,11 +1,11 @@
 import '../styles/rectangle.css'
 
 
-const Introduction = () => {
+const Rectangle = () => {
     return (
         <div className={"rectangle "}>
         </div>
     )
 }
 
-export default Introduction;
+export default Rectangle;
