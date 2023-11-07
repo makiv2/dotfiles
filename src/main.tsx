@@ -8,6 +8,7 @@ import Error from "./pages/Error.tsx";
 import Introduction from "./pages/Introduction.tsx";
 import System from "./pages/System.tsx";
 import Rectangle from "./pages/Rectangle.tsx";
+import HomeBrew from "./pages/HomeBrew.tsx";
 
 const router = createBrowserRouter([
     {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
             {
                 path: "rectangle",
                 element: <Rectangle/>,
+            },
+            {
+                path: "homebrew",
+                element: <HomeBrew/>,
             },
         ],
     },
