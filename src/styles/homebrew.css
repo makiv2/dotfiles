@@ -1,0 +1,13 @@
+.homebrew {
+    display: flex;
+    justify-content: center;
+}
+
+.homebrew_div {
+    margin-top: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 78%;
+}
