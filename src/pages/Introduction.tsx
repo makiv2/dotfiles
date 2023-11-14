@@ -6,7 +6,8 @@ const Introduction = () => {
     return (
         <div className={"general"}>
             <div className={"general__div"}>
-                <h1>Welcome to my Mac setup and Configuration Guide!</h1>
+                <hr className={"line__top"}></hr>
+                <h1>Mac Setup and Configuration</h1>
                 <p>{introText}</p>
 
                 <h2>Contributing to the guide</h2>
@@ -14,7 +15,7 @@ const Introduction = () => {
                     If you've found this page helpful and have additional insights or suggestions to enhance its
                     content, I warmly welcome your contributions. Don't hesitate to open a pull request!
                 </p>
-                <hr className={"line"}></hr>
+                <hr className={"line__bottom"}></hr>
             </div>
         </div>
     )
