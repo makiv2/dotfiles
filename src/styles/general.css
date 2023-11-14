@@ -1,0 +1,14 @@
+.general {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.general__div {
+    margin-top: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 78%;
+}

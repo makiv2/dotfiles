@@ -4,8 +4,8 @@ const introText = "Welcome to the ultimate destination for Mac enthusiasts and u
 
 const Introduction = () => {
     return (
-        <div className={"intro"}>
-            <div className={"intro__div"}>
+        <div className={"general"}>
+            <div className={"general__div"}>
                 <h1>Welcome to my Ultimate Mac Setup and Configuration Guide!</h1>
                 <p>{introText}</p>
 
