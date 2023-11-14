@@ -5,10 +5,14 @@
 }
 
 .general__div {
-    margin-top: 2rem;
+    margin-top: 4rem;
 
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    max-width: 78%;
+    gap: 1rem;
+    max-width: 55%;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.85);
 }
