@@ -2,8 +2,8 @@ import '../styles/system.css'
 
 const System = () => {
     return (
-        <div className={"system"}>
-            <div className={"system__div"}>
+        <div className={"general"}>
+            <div className={"general__div"}>
                 <h1>System Settings</h1>
 
                 <h2>Trackpad</h2>
