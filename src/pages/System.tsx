@@ -4,6 +4,7 @@ const System = () => {
     return (
         <div className={"general"}>
             <div className={"general__div"}>
+                <hr className={"line__top"}></hr>
                 <h1>System Settings</h1>
 
                 <h2>Trackpad</h2>
@@ -64,6 +65,7 @@ const System = () => {
                         Change default screenshot folder: defaults write com.apple.screencapture location /path/to/screenshots/ && killall SystemUIServer
                     </li>
                 </ul>
+                <hr className={"line__top"}></hr>
             </div>
         </div>
     )

@@ -16,3 +16,11 @@
 p {
     color: rgba(255, 255, 255, 0.85);
 }
+
+.line__top{
+    margin-bottom: 1rem;
+}
+
+.line__bottom {
+    margin: 1rem 0;
+}
