@@ -1,1 +1,1 @@
-# Dotfiles webpage made with React + TypeScript + Vite
+# Webpage for macOS configuration made with React + TypeScript + Vite
